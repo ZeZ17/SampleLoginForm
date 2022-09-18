@@ -1,0 +1,87 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+body {
+    background-color: aquamarine;
+}
+.container {
+    height: 610px;
+    width: 350px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 7rem;
+    background-color: #15273f;
+    border-radius: 15px;
+}
+
+.img-content {
+    width: 300px;
+    display: grid;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #e5eaf6;
+    font-family: 'Roboto';
+    font-size: 1.3rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.details {
+    font-family: 'Roboto';
+    margin: 0px 20px 0px 20px;
+    font-size: 1.2rem;
+    color: #8397b1;
+}
+
+.value, .time {
+    font-size: 1.2rem;
+    margin: 0px 20px 0px 20px;
+    color: #23dedf;
+    font-family: 'Roboto';
+}
+
+hr {
+    height: 11px;
+    border: 0;
+    border-bottom: 1px solid white;
+    max-width: 320px;
+    margin-top: 0;
+}
+
+.avatar {
+    width: 40px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin-top: 15px;
+}
