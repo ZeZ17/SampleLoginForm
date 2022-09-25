@@ -1,2 +1,61 @@
+<!-- <meta http-equiv="refresh" content="5" > -->
 
-<p>This music player works</p>
+<link rel="stylesheet" type="text/css" href="../css/musicplayer.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<title>Music Player</title>
+
+<div class="navbar">
+    <a href="SampleLoginForm.html">Home</a>
+    <a href="SampleDesignDiamond.html">Diamond</a>
+    <a href="SampleNFT.html">NFT</a>
+    <a href="SampleMusicPlayer.html">Music Player</a>
+    <a href="SamplePortfolio.html">Portfolio</a>
+    <a href="SampleTextAnimation.html">Text Animation</a>
+  </div>
+
+<div class="wrapper">
+    <header>
+        <button class="hdbtn">
+            <i class="glyphicon glyphicon-arrow-left"></i>
+        </button>
+        <h3 class="p-now">Playing Now</h3>
+        <button class="hdbtn">
+            <i class="glyphicon glyphicon-list"></i>
+        </button>
+    </header>
+
+    <div class="player">
+        <div class="img-area">
+            <img src="../images/avatar.jpg" alt="">
+        </div>
+
+        <div class="song-details">
+            <h1 class="name">Sinful</h1>
+            <h3 class="artist">Dizzy</h3>
+        </div>
+
+        <div class="audioC">
+            <div class="song-timer">
+                <span class="current-time">0:00</span>
+                <span class="max-duration">0:00</span>
+            </div>
+            <div class="progress-area">
+                <div class="progress-bar">
+                    <audio id="main-audio" src="../songs/Dxrk ダーク - RAVE (Official Audio).mp3"></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btnC" id="prev">
+                <i class="glyphicon glyphicon-backward"></i>
+            </button>
+            <button class="play-pause btnC">
+                <i class="glyphicon glyphicon-play"></i>
+            </button>
+            <button class="btnC" id="next">
+                <i class="glyphicon glyphicon-forward"></i>
+            </button>
+        </div>
+    </div>
+</div>
