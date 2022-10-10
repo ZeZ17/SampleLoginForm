@@ -28,7 +28,7 @@
   }
 
 body {
-    background-color: aquamarine;
+    background-color: #22262A;
 }
 .container {
     height: 610px;
@@ -39,6 +39,7 @@ body {
     background-color: #15273f;
     border-radius: 15px;
 }
+
 
 .img-content {
     width: 300px;
